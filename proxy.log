@@ -1,0 +1,137 @@
+2024/10/03 15:48:59 listen tcp: address 9000: missing port in address
+2024/10/03 15:49:12 listen tcp: address 9000: missing port in address
+2024/10/03 15:49:29 Request:
+GET / HTTP/1.1
+Host: 9000-valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: gp-necessary=true;gitpod-user=true;ajs_anonymous_id=9425f28b-4f95-4cff-8395-1456fa36e0d7;ajs_user_id=2bf7505e8598eeac4127de8f98d60476b87f1929912aa95d726b5f1e5005baf6;intercom-device-id-y10e7138=4092b12f-bd71-4db0-98c9-4c9bf2c8cd2b;gitpod_hashed_user_id=b9bbf0c79ccc2b6ddc824ab0b1074b30
+Priority: u=0, i
+Referer: https://valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io/
+Sec-Ch-Ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+X-Forwarded-For: 93.35.222.29
+X-Forwarded-Host: 9000-valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+
+
+2024/10/03 15:49:29 Response:
+HTTP/1.1 200 
+Content-Length: 14
+Content-Type: text/html;charset=UTF-8
+Date: Thu, 03 Oct 2024 15:49:29 GMT
+
+"Hello World!"
+2024/10/03 15:49:29 Request:
+GET /favicon.ico HTTP/1.1
+Host: 9000-valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: gp-necessary=true;gitpod-user=true;ajs_anonymous_id=9425f28b-4f95-4cff-8395-1456fa36e0d7;ajs_user_id=2bf7505e8598eeac4127de8f98d60476b87f1929912aa95d726b5f1e5005baf6;intercom-device-id-y10e7138=4092b12f-bd71-4db0-98c9-4c9bf2c8cd2b;gitpod_hashed_user_id=b9bbf0c79ccc2b6ddc824ab0b1074b30
+Priority: u=1, i
+Referer: https://9000-valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io/
+Sec-Ch-Ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+X-Forwarded-For: 93.35.222.29
+X-Forwarded-Host: 9000-valyc0-dbready-b2358pqxr9b.ws-eu116.gitpod.io
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+
+
+2024/10/03 15:49:29 Response:
+HTTP/1.1 404 
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Thu, 03 Oct 2024 15:49:29 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+1043
+{"timestamp":"2024-10-03T15:49:29.269+00:00","status":404,"error":"Not Found","trace":"org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.\n\tat org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\n\tat java.base/java.lang.Thread.run(Thread.java:840)\n","message":"No static resource favicon.ico.","path":"/favicon.ico"}
+0
+
+
+2024/10/08 18:38:44 listen tcp :8090: bind: address already in use
+2024/10/08 18:46:09 Request:
+GET / HTTP/1.1
+Host: 8090-valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: gp-necessary=true;gitpod-user=true;_ga=GA1.1.356506667.1708763555;_ga_WGKCLFMW2J=GS1.1.1708763555.1.0.1708763564.51.0.0;rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX18yFTGER%2FO8xzszhhdYscCPNCheTzp6S50jzq%2BK%2F%2BBPmSqQhfS0VyE%2F1S1mkdC%2FNMqi0gUgqazUKeD7QPU6JQhV9zkNTwJbuFM%3D;rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX1%2BUINC2RoVM6vKDcpQRYu4TUiNxYoaysw6NjNJdwgunoBjF6FMzxy3a8YgIX2wDhlJ5NkTntb0coA%3D%3D;rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX19kALXi0iviC%2FLk9VnkGW4pwcEnGhOb7ZdcHwvVYmXdYlkns1c7707JnN8BSTsZDMdPgKuGQO0g0Q%3D%3D;rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2Bi6YUZO4mFwwyAaMi9XFSxydOhgXD8%2FLGgqrOB0qgRns%2B4MOldCvK4cvotHtXDn49n1qP5eRYYQCFZoGVqTx8Z%2FI0XZR1khPVuPwkIb3EGfsRwgjZ3r1y1mSGkZ7rxbGDfyPafXH6jzogzJ100rbziBeYE5Fb5xsQ%3D;rl_trait=RudderEncrypt%3AU2FsdGVkX19jB2bJklK8ea5FUFS%2FbIojDBpioCP17O2midQ%2Bi9RjE9Kc%2B7TQGYW%2BXBPrL1lzLzZ5S7RlmWlBiG3MomqlPdrB59YLP%2F%2F%2BGnw7A6ArtI96Tbibn%2Bjnt2frI61%2BjsPTBB%2FhaXKGTJjdkA%3D%3D;rl_session=RudderEncrypt%3AU2FsdGVkX18vrOPSa%2B3RDPhgHym01ZdlItAS0cpcP2zY46ehvuNMkrR2Q8g73fe730q6QFqu8XgTlIg86OaPO9y11YbECF7gPvB9BYmeagEdSF%2BrhwVNPHIFuy07Cl%2BHurhNbK09YEA%2BcYmBuDz92g%3D%3D;ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%22cf39ed9b7592341108466a58b75df95063a7410c3229c2b22dd3de07bfff6a6a%23a22ede23-7ea6-4e46-b4e0-d2e70ab4b871%22%2C%22%24sesid%22%3A%5B1712686892115%2C%22018ec418-0453-7c16-a608-97b49cf70360%22%2C1712686892115%5D%7D;gp-analytical=true;gp-targeting=true;ajs_anonymous_id=524be9a5-04be-443a-9f91-0d6e5ac2aef6;gitpod-marketing-website-visited=true;ajs_user_id=019262c5-f656-7864-90d0-02ac4d22f5d6;gitpod-flex-user=true;intercom-session-ax8s6m84=QlZSL0xXM0FKVy95cnB5V0NaUzFhYm1MOXVJQktSOGpObCtvOTI4UERpb2RqOWhQa3JQcDNVQkJWRkc5eTBaRy0tcmFvN0RQWDlXVTJ6b3dWcGtsWDRTUT09--a1b9c1d9c16be101d163026f287f446291e899c3;intercom-device-id-ax8s6m84=2396fc39-5250-45ec-9c9e-da157dae42f5;gitpod_hashed_user_id=b9bbf0c79ccc2b6ddc824ab0b1074b30
+Priority: u=0, i
+Referer: https://valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io/
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+Sec-Fetch-User: ?1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+X-Forwarded-For: 93.35.222.29
+X-Forwarded-Host: 8090-valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+
+
+2024/10/08 18:46:09 Response:
+HTTP/1.1 200 
+Content-Length: 14
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 08 Oct 2024 18:46:09 GMT
+
+"Hello World!"
+2024/10/08 18:46:09 Request:
+GET /favicon.ico HTTP/1.1
+Host: 8090-valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: gp-necessary=true;gitpod-user=true;_ga=GA1.1.356506667.1708763555;_ga_WGKCLFMW2J=GS1.1.1708763555.1.0.1708763564.51.0.0;rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX18yFTGER%2FO8xzszhhdYscCPNCheTzp6S50jzq%2BK%2F%2BBPmSqQhfS0VyE%2F1S1mkdC%2FNMqi0gUgqazUKeD7QPU6JQhV9zkNTwJbuFM%3D;rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX1%2BUINC2RoVM6vKDcpQRYu4TUiNxYoaysw6NjNJdwgunoBjF6FMzxy3a8YgIX2wDhlJ5NkTntb0coA%3D%3D;rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX19kALXi0iviC%2FLk9VnkGW4pwcEnGhOb7ZdcHwvVYmXdYlkns1c7707JnN8BSTsZDMdPgKuGQO0g0Q%3D%3D;rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2Bi6YUZO4mFwwyAaMi9XFSxydOhgXD8%2FLGgqrOB0qgRns%2B4MOldCvK4cvotHtXDn49n1qP5eRYYQCFZoGVqTx8Z%2FI0XZR1khPVuPwkIb3EGfsRwgjZ3r1y1mSGkZ7rxbGDfyPafXH6jzogzJ100rbziBeYE5Fb5xsQ%3D;rl_trait=RudderEncrypt%3AU2FsdGVkX19jB2bJklK8ea5FUFS%2FbIojDBpioCP17O2midQ%2Bi9RjE9Kc%2B7TQGYW%2BXBPrL1lzLzZ5S7RlmWlBiG3MomqlPdrB59YLP%2F%2F%2BGnw7A6ArtI96Tbibn%2Bjnt2frI61%2BjsPTBB%2FhaXKGTJjdkA%3D%3D;rl_session=RudderEncrypt%3AU2FsdGVkX18vrOPSa%2B3RDPhgHym01ZdlItAS0cpcP2zY46ehvuNMkrR2Q8g73fe730q6QFqu8XgTlIg86OaPO9y11YbECF7gPvB9BYmeagEdSF%2BrhwVNPHIFuy07Cl%2BHurhNbK09YEA%2BcYmBuDz92g%3D%3D;ph_phc_4URIAm1uYfJO7j8kWSe0J8lc8IqnstRLS7Jx8NcakHo_posthog=%7B%22distinct_id%22%3A%22cf39ed9b7592341108466a58b75df95063a7410c3229c2b22dd3de07bfff6a6a%23a22ede23-7ea6-4e46-b4e0-d2e70ab4b871%22%2C%22%24sesid%22%3A%5B1712686892115%2C%22018ec418-0453-7c16-a608-97b49cf70360%22%2C1712686892115%5D%7D;gp-analytical=true;gp-targeting=true;ajs_anonymous_id=524be9a5-04be-443a-9f91-0d6e5ac2aef6;gitpod-marketing-website-visited=true;ajs_user_id=019262c5-f656-7864-90d0-02ac4d22f5d6;gitpod-flex-user=true;intercom-session-ax8s6m84=QlZSL0xXM0FKVy95cnB5V0NaUzFhYm1MOXVJQktSOGpObCtvOTI4UERpb2RqOWhQa3JQcDNVQkJWRkc5eTBaRy0tcmFvN0RQWDlXVTJ6b3dWcGtsWDRTUT09--a1b9c1d9c16be101d163026f287f446291e899c3;intercom-device-id-ax8s6m84=2396fc39-5250-45ec-9c9e-da157dae42f5;gitpod_hashed_user_id=b9bbf0c79ccc2b6ddc824ab0b1074b30
+Priority: u=1, i
+Referer: https://8090-valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io/
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+X-Forwarded-For: 93.35.222.29
+X-Forwarded-Host: 8090-valyc0-dbready-1sf9y01nqug.ws-eu116.gitpod.io
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+
+
+2024/10/08 18:46:09 Response:
+HTTP/1.1 404 
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Tue, 08 Oct 2024 18:46:09 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+1043
+{"timestamp":"2024-10-08T18:46:09.228+00:00","status":404,"error":"Not Found","trace":"org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.\n\tat org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)\n\tat org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\n\tat java.base/java.lang.Thread.run(Thread.java:840)\n","message":"No static resource favicon.ico.","path":"/favicon.ico"}
+0
+
+
